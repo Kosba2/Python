@@ -1,0 +1,54 @@
+#1: not (P or Q)
+P	Q	!(P or Q)
+-------------------------
+F	F	    T
+F	T	    F
+T	F	    F
+T	T	    F
+
+
+#2: P and Q or R
+P	Q	R	((P & Q) or R)
+--------------------------------------
+F	F	F	          F
+F	F	T	          T
+F	T	F	          F
+F	T	T	          T
+T	F	F	          F
+T	F	T	          T
+T	T	F	          T
+T	T	T	          T
+
+
+#3: (not P or not Q) and not R
+P	Q	R	((!P or !Q) & !R)
+-----------------------------------------
+F	F	F		    T
+F	F	T		    F
+F	T	F		    T
+F	T	T		    F
+T	F	F		    T
+T	F	T		    F
+T	T	F		    F
+T	T	T		    F
+
+
+#4: (P and Q) or (R and S)
+P	Q	R	S	((P & Q) or (R & S))
+----------------------------------------------------
+F	F	F	F		  F
+F	F	F	T		  F
+F	F	T	F		  F
+F	F	T	T		  T
+F	T	F	F		  F
+F	T	F	T		  F
+F	T	T	F		  F
+F	T	T	T		  T
+T	F	F	F		  F
+T	F	F	T		  F
+T	F	T	F		  F
+T	F	T	T		  T
+T	T	F	F		  T
+T	T	F	T		  T
+T	T	T	F		  T
+T	T	T	T		  T

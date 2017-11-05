@@ -1,0 +1,7 @@
+4. 63 (80d7af305e7c)
+
+4.3. One's a number, presumably the # of the Commit all in all, and the other is a hash/encryption code?
+
+7. 64 (35b0b7c94c0b)
+
+8. Save the Programs directory
