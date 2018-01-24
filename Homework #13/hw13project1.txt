@@ -1,0 +1,19 @@
+C:\Users\Kostyantyn\AppData\Local\Programs\Python\Python36-32\python.exe "C:/Users/Kostyantyn/Desktop/Python/Homework #13/hw13project1.py"
+List is 1000 numbers long
+Binary Search took 1.2630962356969151e-05 seconds.
+Linear Search took 0.00015315041857825098 seconds.
+
+List is 10000 numbers long
+Binary Search took 1.4604550225245667e-05 seconds.
+Linear Search took 0.0014490082128885552 seconds.
+
+List is 100000 numbers long
+Binary Search took 2.3683054419316313e-05 seconds.
+Linear Search took 0.01472020247432658 seconds.
+
+List is 10000000 numbers long
+Binary Search took 3.631401677628432e-05 seconds.
+Linear Search took 1.5231618298633052 seconds.
+
+
+Process finished with exit code 0

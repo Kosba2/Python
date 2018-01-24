@@ -1,0 +1,16 @@
+Name: Bob Barker
+ID: 1
+Number Classes: 5
+Pay: $5000
+
+Name: Frank Neeson
+ID: 2
+Salary: 4500
+Pay: $4500
+
+Name: Mike Smith
+ID: 3
+Hours Worked: 260
+Hourly Rate: 18
+Pay: $4680
+
